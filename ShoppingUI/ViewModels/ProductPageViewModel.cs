@@ -48,7 +48,7 @@ namespace ShoppingUI
                     Imagine="parfum.png",
                     Nume = "GIVENCHY IRRESISTIBLE",
                     Cantitate = "1",
-                    Pret = "456 LEI",
+                    Pret = "450 LEI",
                     Descriere = "În timpul creației societății pariziene Givenchy la Paris în 1952, Hubert de Givenchy nu avea idee că va fi unul dintre cele mai de succes.  Timp de 40 de ani, rochia marca Givenchy va fi purtată de Audrey Hepburn, cu liniile sale elegante atât in oraș cat și pe ecran, în Sabrina, Drôle de frimousse sau Diamants sur canapé."
                 },
                 new Items
