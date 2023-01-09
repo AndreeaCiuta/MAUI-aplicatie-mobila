@@ -32,7 +32,7 @@ namespace ShoppingUI
                     Imagine="irres.png",
                     Nume = "LANVIN ÉCLAT D´ARPEGE",
                     Cantitate = "1",
-                    Pret = "444 LEI",
+                    Pret = "430 LEI",
                     Descriere ="Prezentat într-o sticlă violet care evocă o adevărată bijuterie, parfumul Lanvin Éclat D'Arpege este o creație modernă pe tema iubirii. Bucurați-vă de zile frumoase pline de momente unice, cu un parfum care evocă amintirile fericite ale verii. Brandul Lanvin a intrat în lumea parfumurilor în 1924 și fiecare dintre parfumurile sale este unic și excepțional."
                 },
                 new Items
