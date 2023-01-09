@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.ObjectModel;
 using System.Runtime.Intrinsics.Arm;
 using System.Windows.Input;
@@ -11,7 +10,7 @@ namespace ShoppingUI
         public ObservableCollection<Items> Items { get; set; }
 
         public ObservableCollection<Items> CartItems { get; set; }
-
+     
         public Items SelectedItem { get; set; }
 
         public ICommand Itemclick { get; set; }
@@ -72,6 +71,7 @@ namespace ShoppingUI
             CartItems = new ObservableCollection<Items> { };
             Itemclick = new Command<Items>(executeitemclickcommand);
             CartItemclick = new Command<Items>(executeCartitemclickcommand);
+           
             this.navigation = navigation;
         }
         private INavigation navigation;
@@ -88,5 +88,6 @@ namespace ShoppingUI
             await navigation.PushModalAsync(new CartPage(this));
 
         }
+       
     }
 }

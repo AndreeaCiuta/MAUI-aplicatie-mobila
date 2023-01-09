@@ -16,6 +16,7 @@
                 </Grid>
 
             <Grid Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Start" BackgroundColor="Grey">
+            
                     <syncfusion:SfListView x:Name="listView" ItemSpacing="5,0,0,0" 
                    ItemsSource="{Binding CartItems}"
                                ItemSize="120">
@@ -42,8 +43,8 @@
                     </syncfusion:SfListView>
                 </Grid>
 
-          
-
-            </Grid>
+            <Button Grid.Row="3" Grid.RowSpan="2" Grid.Column="1" VerticalOptions="Center" BackgroundColor="White"  Text="Sterge" Command="{Binding Path=CartItems.Count}" TextColor="#2C363C" CornerRadius="20" Margin="0,10,30,30" WidthRequest="180" FontSize="17" FontAttributes="Bold" HeightRequest="55"/>
+            
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
